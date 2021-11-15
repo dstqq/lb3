@@ -1,0 +1,23 @@
+#board{
+    display: inline-block;
+    margin-top: 5px;
+    border-spacing: 0px;
+}
+
+#board td{
+    display: table-cell;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#board .lpink {
+    background-color: lightpink;
+}
+
+#board .lblue {
+    background-color: lightblue;;
+}
