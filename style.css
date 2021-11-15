@@ -2,6 +2,7 @@
     display: inline-block;
     margin-top: 5px;
     border-spacing: 0px;
+	border: solid black 2px;
 }
 
 #board td{
@@ -14,10 +15,10 @@
     vertical-align: middle;
 }
 
-#board .lpink {
-    background-color: lightpink;
+#board .lgray {
+    background-color: gray;
 }
 
-#board .lblue {
-    background-color: lightblue;;
+#board .lwhite {
+    background-color: white;;
 }

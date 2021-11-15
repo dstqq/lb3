@@ -14,7 +14,7 @@ function draw_board(n, board)
         for (var j = 0; j < n; j++)
         {
             var td = tr.appendChild(document.createElement('td'))
-            td.className = i % 2 == j % 2 ? 'lpink' : 'lblue';
+            td.className = i % 2 == j % 2 ? 'lgray' : 'lwhite';
         }
     }
 }
